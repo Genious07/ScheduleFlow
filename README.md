@@ -1,13 +1,20 @@
 # ScheduleFlow: Interview Booking Automation
 
+Welcome to **ScheduleFlow**, your friendly and efficient solution for automating interview scheduling! Built with love using n8n, Render, and a touch of AI magic, ScheduleFlow streamlines the process of booking interviews by connecting users with your calendar, sending confirmation emails, and handling all the details seamlessly.
 
-Welcome to **ScheduleFlow**, your friendly and efficient solution for automating interview scheduling! Built with love using n8n, Render, and a touch of AI magic, ScheduleFlow streamlines the process of booking interviews by connecting users with your calendar, sending confirmation emails, and handling all the details seamlessly. Whether you're a recruiter, HR professional, or just someone who loves automation, ScheduleFlow is here to save you time and effort!
+## 🎥 Demo: See ScheduleFlow in Action!
+
+Before you dive in, watch this 2-minute demo to see how ScheduleFlow works from a candidate's perspective, from starting a chat to getting a confirmed booking in your calendar.
+
+[<img src="asset/thumbnail.png" alt="ScheduleFlow Demo Video" width="80%">](https://youtu.be/_5RHeS6pPqk)
+
+> **[Click here to watch the full demo on YouTube](https://youtu.be/_5RHeS6pPqk)**
 
 ## ✨ What is ScheduleFlow?
 
 ScheduleFlow is an end-to-end interview booking automation tool that allows candidates to book meetings with you directly through a sleek web interface. Powered by a conversational AI, it checks your availability, books the slot, and sends you an email with the booking details—all without the back-and-forth hassle. It’s perfect for managing interview schedules efficiently and professionally.
 
-## 🚀 Features
+##  Features
 
 - **Conversational AI Booking**: Chat with an AI (named Nathan!) to schedule interviews.
 - **Real-Time Calendar Integration**: Checks your Google Calendar for availability and books slots automatically.
@@ -15,10 +22,6 @@ ScheduleFlow is an end-to-end interview booking automation tool that allows cand
 - **Dark-Mode Interface**: A modern, animated, and user-friendly frontend.
 - **24/7 Availability**: Deployed on Render's free tier with a keep-alive mechanism.
 - **Open-Source Backbone**: Built with n8n for flexible workflow automation.
-
-## 🎥 See It in Action!
-
-Check out this recording to see ScheduleFlow in action! [Watch the Demo](asset/video.mp4) <!-- Replace with your recording URL, e.g., YouTube or Google Drive link -->
 
 ## 🛠 How It Works
 
@@ -46,31 +49,20 @@ Check out this recording to see ScheduleFlow in action! [Watch the Demo](asset/v
 ### Installation
 
 1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/scheduleflow.git
-   cd scheduleflow
-   ```
+   ```bash
+   git clone [https://github.com/yourusername/scheduleflow.git](https://github.com/Genious07/ScheduleFlow.git)
+   cd scheduleflow
+   ```
 
 2. **Set Up the Backend**
-   - Deploy the n8n backend using the [n8n-ai-render template](https://github.com/piloterr/n8n-ai-render).
-   - Fork the repo, click "Deploy to Render," and follow the setup wizard.
-   - Configure environment variables in Render (e.g., `N8N_CORS_ORIGIN=https://your-site.onrender.com`).
-   - Set up Google OAuth credentials and OpenAI API key in n8n.
+   - Deploy the n8n backend using the [n8n-ai-render template](https://github.com/piloterr/n8n-ai-render).
+   - Fork the repo, click "Deploy to Render," and follow the setup wizard.
+   - Configure environment variables in Render (e.g., `N8N_CORS_ORIGIN=https://your-site.onrender.com`).
+   - Set up Google OAuth credentials and OpenAI API key in n8n.
 
 3. **Configure the Workflow**
-   - Import the interview scheduling workflow into n8n (e.g., from [n8n.io/workflows](https://n8n.io/workflows/3363-automated-interview-scheduling-with-gpt-4o-and-google-calendar-chat-bot/)).
-   - Update placeholders (e.g., your email, time zone) and enable streaming in the "Candidate Chat" and "AI Agent" nodes.
-   - Add a "Keep Alive" workflow to ping `/healthz` every 10 minutes for 24/7 uptime.
-
-4. **Deploy the Frontend**
-   - Place the `index.html` file in the repo root.
-   - Push to GitHub.
-   - In Render: Create a new Static Site, connect the repo, set Publish Directory to `/`, and deploy.
-   - Note the frontend URL (e.g., `https://your-site.onrender.com`).
-
-5. **Test the System**
-   - Visit the frontend URL, click "Book Meeting," and chat with Nathan.
-   - Send "hi" to test the response and book a sample meeting.
+   - Import the interview scheduling workflow into n8n 
+   - Update placeholders (e.g., your email, time zone) and enable streaming in the "Candidate Chat" and "AI Agent" nodes.
 
 ## 🖥 Deployment
 
@@ -83,7 +75,7 @@ Check out this recording to see ScheduleFlow in action! [Watch the Demo](asset/v
 We’d love your help to make ScheduleFlow even better! Feel free to:
 - Report bugs or suggest features by opening an issue.
 - Fork the repo, make changes, and submit a pull request.
-- Share your ideas in the [discussions tab](https://github.com/yourusername/scheduleflow/discussions).
+- Share your ideas .
 
 ## 📜 License
 
@@ -91,13 +83,11 @@ This project is open-source under the MIT License. See the [LICENSE](LICENSE) fi
 
 ## 🙌 Acknowledgments
 
-- Thanks to the n8n community for their amazing workflow tools!
 - Inspired by the need for simpler interview scheduling.
 - Special shoutout to Render for free hosting!
 
 ## 📞 Contact
 
-Have questions or need support? Reach out at [your.email@example.com](mailto:your.email@example.com) or join our community on [X](https://x.com).
+Have questions or need support? Reach out at [satwiks788@gmail.com](mailto:satwiks788@gmail.com).
 
 Happy scheduling with ScheduleFlow! 🚀
-```
