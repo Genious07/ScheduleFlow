@@ -1,7 +1,7 @@
 # ScheduleFlow: Interview Booking Automation
 
 Welcome to **ScheduleFlow**, your friendly and efficient solution for automating interview scheduling! Built with love using n8n, Render, and a touch of AI magic, ScheduleFlow streamlines the process of booking interviews by connecting users with your calendar, sending confirmation emails, and handling all the details seamlessly.
-=>[Test it Here](https://rb.gy/441v4s)
+=>[Test it Here](https://n8n-latest-yb14.onrender.com/webhook/0c8f9f17-f5f3-4b5d-85e7-071ced0213ae/chat)
 ## 🎥 Demo: See ScheduleFlow in Action!
 
 Before you dive in, watch this 2-minute demo to see how ScheduleFlow works from a candidate's perspective, from starting a chat to getting a confirmed booking in your calendar.
